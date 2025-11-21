@@ -4,49 +4,35 @@ Reference implementation of the Gravity of Probability (GoP) probabilistic curva
 
 # GoP-Probabilistic-Curvature
 
-Reference implementation of the **Gravity of Probability (GoP)** probabilistic
-curvature term \(T_{\mu\nu}^{\rm prob}\).
+Reference implementation of the Gravity of Probability (GoP) probabilistic curvature term Tᵤₙᵤᵖʳᵒᵇ.
 
-This repository provides a minimal, usable Python implementation of the
-**decoherence kernel** \(\Gamma(E)\), global GoP parameters, and a simple
-stress–energy calculator that maps \((E, \rho_b, z)\) to an effective
-probabilistic stress–energy tensor for use in cosmology, lensing, and galaxy
-dynamics.
+This repository provides a minimal, usable Python implementation of the decoherence kernel Γ(E), the global GoP parameters, and a simple stress–energy calculator that maps (E, ρ_b, z) to an effective probabilistic stress-energy tensor for use in cosmology, lensing, and galaxy dynamics.
 
-#Description is written in LaTeX
-Sorry for the code - but if you're here, you likely understand it.
+The description above was originally written in LaTeX. This version uses plain Unicode characters for clarity.
 
----
+1. Background
 
-## 1. Background
+In the Gravity of Probability framework, the total stress–energy tensor is written as:
 
-In the Gravity of Probability framework, the total stress–energy tensor is
-written as
+Tᵤₙᵤᵗᵒᵗᵃˡ = Tᵤₙᵤ + Tᵤₙᵤᵖʳᵒᵇ
 
-\[
-T_{\mu\nu}^{\rm total} = T_{\mu\nu} + T_{\mu\nu}^{\rm prob},
-\]
+where:
 
-where
+Tᵤₙᵤ is the classical stress–energy (baryons, radiation, etc.)
 
-- \(T_{\mu\nu}\) is the classical stress–energy (baryons, radiation, etc.),
-- \(T_{\mu\nu}^{\rm prob}\) encodes a small but non-negligible curvature
-  contribution from unrealized quantum amplitudes, modulated by decoherence
-  and entropy.
+Tᵤₙᵤᵖʳᵒᵇ encodes a small but non-negligible curvature contribution from unrealized quantum amplitudes, modulated by decoherence and entropy
 
-At the level of a homogeneous fluid, we can schematically write
+For a homogeneous fluid, we can approximate:
 
-\[
-T_{\mu\nu}^{\rm prob} \;\sim\; \kappa A \, \Gamma(E)\, \rho_\Psi,
-\]
+Tᵤₙᵤᵖʳᵒᵇ ≈ κA · Γ(E) · ρ_ψ
 
-where
+where:
 
-- \(\kappa A\) is a global amplitude,
-- \(\Gamma(E)\) is a decoherence kernel (here implemented as a bell-curve
-  function in energy),
-- \(\rho_\Psi\) is an effective probabilistic / entanglement density that
-  tracks baryonic structure with an entanglement fraction \(f_{\rm ent}\).
+κA is the global amplitude that sets the overall strength of the probabilistic curvature
+
+Γ(E) is the decoherence kernel, implemented as a bell-curve function in energy
+
+ρ_ψ is the effective probabilistic or entanglement density, which follows the baryonic (normal-matter) distribution and is scaled by the entanglement fraction f_ent
 
 This repository exposes those ingredients in a simple Python API so that
 collaborations (e.g. DESI, Euclid, JWST, lensing groups) can plug GoP into
