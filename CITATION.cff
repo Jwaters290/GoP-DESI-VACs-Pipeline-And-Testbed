@@ -1,0 +1,57 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated Gravity of Probability works below."
+title: "Gravity of Probability (GoP) Framework and Probabilistic Curvature Code"
+version: "1.0.0"
+date-released: "2025-11-22"
+
+authors:
+  - family-names: "Waters"
+    given-names: "Jordan"
+    orcid: "https://orcid.org/0009-0009-0793-8089"
+
+identifiers:
+  - type: doi
+    value: "10.6084/m9.figshare.29956316"
+    description: "The Gravity of Probability — Full Thesis"
+  - type: doi
+    value: "10.6084/m9.figshare.30507578"
+    description: "GoP: Summary and Application"
+  - type: doi
+    value: "10.6084/m9.figshare.30593876"
+    description: "DESI DR2 VACs Predictions (Core Falsifiable Test)"
+  - type: doi
+    value: "10.6084/m9.figshare.30651686"
+    description: "Foundations & Global Parameter Paper"
+  - type: doi
+    value: "10.6084/m9.figshare.30662603"
+    description: "From Entanglement to Curvature"
+
+repository-code: "https://github.com/Jwaters290/GoP-Probabilistic-Curvature"
+url: "https://figshare.com/authors/Jordan_Waters/21620558"
+
+keywords:
+  - gravity-of-probability
+  - GoP
+  - probabilistic-curvature
+  - decoherence
+  - quantum-gravity
+  - alternative-gravity
+  - cosmology
+  - DESI
+  - DESI-DR2
+  - S8-tension
+  - galaxy-rotation-curves
+  - dark-matter-alternative
+  - large-scale-structure
+  - strong-lensing
+  - CMB-anomalies
+
+preferred-citation:
+  type: article
+  title: "The Gravity of Probability: A Semi-Classical Framework for Probabilistic Curvature"
+  authors:
+    - family-names: "Waters"
+      given-names: "Jordan"
+      orcid: "https://orcid.org/0009-0009-0793-8089"
+  year: 2025
+  doi: "10.6084/m9.figshare.29956316"
