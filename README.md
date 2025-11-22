@@ -1,5 +1,5 @@
 # Gravity of Probability (GoP)
-**Keywords:** gravity-of-probability, decoherence, probabilistic-curvature, alternative-gravity, S8-tension, DESI DR2
+**Keywords:** gravity-of-probability, decoherence, probabilistic-curvature, alternative-gravity, S8-tension, DESI DR2, warm void core prediction, mid-z void peak z=0.55, S₈ = 0.76–0.79 prediction, dipole amplification (1.2×–1.5×) prediction, BAO smoothing prediction
 
 # GoP-Probabilistic-Curvature
 
@@ -12,6 +12,17 @@ This repository contains the official Python implementation of the GoP probabili
 including the decoherence kernel Γ(E), global GoP constants, and tools for computing rotation curves, 
 gravitational lensing, void thermodynamics, and large-scale structure predictions. This is the primary 
 codebase used for GoP predictions in DESI, Euclid, CMB, and lensing analyses.
+
+### GoP Predictions (DESI DR2 VACs)
+
+1. Warm-core cosmic void temperature imprint  
+2. Void redshift peak at z≈0.55  
+3. S₈ suppressed to 0.76–0.79  
+4. Cosmic dipole amplification factor 1.2×–1.5×  
+5. BAO peak smoothing/broadening  
+6. ΔH(z) crossover near z=0.45–0.55  
+7. Strong tracer independence across BGS, LRG, ELG, QSO voids
+
 
 # Citations
 
