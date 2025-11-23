@@ -29,17 +29,23 @@ codebase used for GoP predictions in DESI, Euclid, CMB, and lensing analyses.
 Jordan Waters
 The Gravity of Probability: Replicating Dark Matter Effects Through Quantum Decoherence Curvature
 Figshare DOI: 10.6084/m9.figshare.29815934
+https://figshare.com/articles/thesis/The_Gravity_of_Probability_i_Replicating_Dark_Matter_Effects_Through_Quantum_Decoherence_Curvature_i_/29815934?file=59563217
 
 Jordan Waters
 DESI DR2 VACs Predictions
 Fighsare DOI:  10.6084/m9.figshare.30593876
+https://figshare.com/articles/preprint/DESI_DR2_VACs_Predictions/30593876?file=59479682
 
 Jordan Waters
 Foundations of the Gravity of Probability
 Figshare DOI:  10.6084/m9.figshare.30662603
+https://figshare.com/articles/preprint/Foundations_of_the_Gravity_of_Probability_A_Decoherence-Driven_Extension_of_General_Relativity/30662603?file=59712056
 
 ORCID
 https://orcid.org/0009-0009-0793-8089
+
+Figshare
+https://figshare.com/authors/Jordan_Waters/21620558
 
 1. Background
 
