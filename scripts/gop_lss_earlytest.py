@@ -67,19 +67,9 @@ def gop_predict_pk(k_array, cosmo_params=None):
     IMPORTANT:
         Replace the toy model with your real GoP prediction.
     """
-    # --- BEGIN TOY MODEL (REPLACE WITH REAL GOP PHYSICS) ---
-    # This toy factor mimics a Gaussian bump of amplitude 3% at k=0.1 h/Mpc
-    k0 = 0.10
-    sigma_k = 0.03
-    amp = 0.03  # 3% bump
-
-    bump = 1.0 + amp * np.exp(-0.5 * ((k_array - k0) / sigma_k) ** 2)
-    # This returns a dimensionless modifier. In a real implementation,
-    # you would apply this to a ΛCDM P(k) baseline computed from your
-    # cosmology pipeline.
-    return bump
-    # --- END TOY MODEL ---
-
+       # --- REAL GoP MODEL IMPLEMENTATION ---
+    from gop_core.gop_cosmology import compute_pk_gop
+    return compute_pk_gop(k_array, **(cosmo_params or {}))
 
 # ----------------------------------------------------------------------
 # 3. Comparison and plotting
