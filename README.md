@@ -1,5 +1,5 @@
-# Gravity of Probability (GoP)
-**Keywords:** gravity-of-probability, decoherence, probabilistic-curvature, alternative-gravity, S8-tension, DESI DR2, warm void core prediction, mid-z void peak z=0.55, S₈ = 0.76–0.79 prediction, dipole amplification (1.2×–1.5×) prediction, BAO smoothing prediction
+# Keywords
+gravity-of-probability, decoherence, probabilistic-curvature, alternative-gravity, S8-tension, DESI DR2, warm void core prediction, mid-z void peak z=0.55, S₈ = 0.76–0.79 prediction, dipole amplification (1.2×–1.5×) prediction, BAO smoothing prediction, DESI, DESI-DR1, Lyα-forest, Lyman-alpha, large-scale-structure, LSS, power-spectrum, matter-power-spectrum, Pk-tilt, BAO, BAO-smearing, BAO-smoothing, voids, cosmic-voids, void-stacking, warm-void-core, SPARC-rotation-curves, falsifiable-gravity-model, pre-registered-predictions, DESI-void-test, ACP-CP-violation,
 
 # GoP-Probabilistic-Curvature
 
