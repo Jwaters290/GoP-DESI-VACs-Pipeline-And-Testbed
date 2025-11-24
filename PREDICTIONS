@@ -1,0 +1,66 @@
+# Gravity of Probability – DESI Predictions Register
+
+This document summarizes the main **pre-data** predictions of the Gravity of Probability (GoP) framework as they pertain to DESI Value-Added Catalogs (VACs).  
+The goal is to make the model’s falsifiability transparent and timestamped.
+
+---
+
+## 1. Lyα / LSS Power Spectrum Tilt (Phase I)
+
+**Target data products:**
+
+- DESI Lyα forest VACs  
+- Early large-scale structure power spectrum products (Year 1 cosmology suite)
+
+**Prediction:**
+
+At redshift \( z \sim 2.2\text{–}2.8 \),
+
+\[
+\frac{\Delta P(k)}{P(k)} \equiv \frac{P_{\mathrm{GoP}}(k) - P_{\Lambda\mathrm{CDM}}(k)}{P_{\Lambda\mathrm{CDM}}(k)}
+\approx 0.02 \text{–} 0.04
+\quad \text{for} \quad k \simeq 0.1\, h/\mathrm{Mpc}.
+\]
+
+- Sign: **positive** (GoP predicts a mild enhancement at this scale).  
+- Scale: localized near \( k \sim 0.1\, h/\mathrm{Mpc} \), not a broadband arbitrary tilt.  
+- Model-independence: derived from the same global decoherence parameters used in SPARC, CMB, and lensing applications.
+
+**Falsifiability:**
+
+- If DESI Lyα / LSS data at the relevant redshifts show no such feature within the quoted range (after systematics and bias marginalization), this specific GoP realization is ruled out or must be tightly constrained.
+
+---
+
+## 2. Warm Cores in Cosmic Voids (Phase II)
+
+**Target data products:**
+
+- DESI void / LSS Value-Added Catalogs  
+- Reconstructed 3D density fields  
+- Stacked void profiles (radius, redshift, environment)  
+- Thermal / kSZ / cross-correlation products where available
+
+**Predictions:**
+
+1. **Warm cores:**  
+   Stacked voids exhibit central “warming” relative to ΛCDM expectations, consistent with a residual probabilistic curvature term.
+
+2. **Preferred redshift band:**  
+   The warm-core signal peaks in a finite redshift window tied to the decoherence history (details given in the main GoP cosmology paper).
+
+3. **Curvature residuals without dark matter:**  
+   The inferred gravitational signal in void interiors can be fit by GoP’s probabilistic stress–energy without adding a dark matter component.
+
+**Falsifiability:**
+
+- If DESI stacked voids match ΛCDM predictions with no additional warm-core or curvature residual within uncertainties, GoP’s warm-core mechanism is disfavored.
+- If a signal is found but requires a dark matter–like component, the burden shifts to discriminating GoP curvature vs. particle dark matter through redshift and scale dependence.
+
+---
+
+## 3. General Notes
+
+- No DESI VACs used here were available at the time these predictions were formulated.  
+- All numerical tests are implemented in the code under `scripts/` and `notebooks/`.  
+- This file is intended for future cross-reference when DESI VACs become fully public.
