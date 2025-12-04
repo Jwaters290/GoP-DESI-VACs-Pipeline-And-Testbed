@@ -57,6 +57,48 @@ Expected (pre-registered):
 - warm inner profile
 - radial warm-core structure matching DESI DR2 VAC predictions
 
+----
+
+## Vacuum Stability Test (Λ_eff Consistency Check)
+
+Importantly, in a repo that works parallel to this one, contains the numerical test verifying the constancy and stability of the effective vacuum energy produced by 
+the GoP decoherence kernel. It demonstrates that Γ(E) saturates and stabilizes Λ_eff under cosmological conditions, consistent with observations.
+
+The Gravity of Probability (GoP) framework produces a constant effective vacuum energy:
+
+Λ_eff,
+
+arising directly from the decoherence kernel:
+
+Γ(𝐸)=𝜅𝐴*𝐸𝑒^−𝐸/𝐸0
+
+This simulation demonstrates that probabilistic curvature naturally saturates to a stable vacuum state, even under extreme variations in the local energy distribution. This is a crucial internal consistency check showing that:
+
+GoP does not overproduce vacuum energy
+
+Λₑff converges rapidly and remains constant
+
+The decoherence field ρΨ yields a cosmological constant without fine-tuning
+
+The model remains compatible with late-time acceleration
+
+The vacuum state is dynamically stable across cosmological scales
+
+This test is essential because any viable alternative to dark matter or modified gravity must also reproduce the observed vacuum energy density, Hubble expansion behavior, and dark-energy-like acceleration without introducing instabilities.
+
+The results here show that GoP’s decoherence-induced curvature produces a self-regulating Λ-term, tightly connected to the scalar field dynamics and entanglement fraction, and consistent with measurements from:
+
+Planck CMB ΛCDM parameters
+
+DESI BAO expansion rates
+
+SN Ia luminosity distances
+
+This repository is part of the broader GoP framework encompassing probabilistic curvature, quantum decoherence cosmology, dark-matter-free rotation curves, strong gravitational lensing predictions, and first-principles cosmological constant generation.
+
+
+https://github.com/Jwaters290/GoP-vs-Lambda-Vacuum-Constant
+
 ---
 
 # GoP Predictions for DESI DR2
@@ -186,3 +228,4 @@ def gop_predict_pk(k_array, cosmo=None):
     return compute_pk_gop(k_array, **(cosmo or {}))
 ```
 This upgrades the script to the full GoP cosmology.
+
