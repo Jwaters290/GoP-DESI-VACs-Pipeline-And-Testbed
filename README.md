@@ -74,15 +74,15 @@ arising directly from the decoherence kernel:
 
 This simulation demonstrates that probabilistic curvature naturally saturates to a stable vacuum state, even under extreme variations in the local energy distribution. This is a crucial internal consistency check showing that:
 
-GoP does not overproduce vacuum energy
+- GoP does not overproduce vacuum energy
 
-Λₑff converges rapidly and remains constant
+- Λₑff converges rapidly and remains constant
 
-The decoherence field ρΨ yields a cosmological constant without fine-tuning
+- The decoherence field ρΨ yields a cosmological constant without fine-tuning
 
-The model remains compatible with late-time acceleration
+- The model remains compatible with late-time acceleration
 
-The vacuum state is dynamically stable across cosmological scales
+- The vacuum state is dynamically stable across cosmological scales
 
 This test is essential because any viable alternative to dark matter or modified gravity must also reproduce the observed vacuum energy density, Hubble expansion behavior, and dark-energy-like acceleration without introducing instabilities.
 
