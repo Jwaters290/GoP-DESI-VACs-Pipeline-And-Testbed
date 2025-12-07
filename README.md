@@ -1,14 +1,4 @@
-# Keywords
-gravity-of-probability, decoherence, probabilistic-curvature, alternative-gravity,
-S8-tension, DESI-DR2, warm-void-core, void-redshift-peak-0.55, S8-0.76-0.79,
-dipole-amplification, BAO-smoothing, DESI, DESI-DR1, Lyman-alpha, LyA-forest,
-large-scale-structure, LSS, Pk-tilt, matter-power-spectrum, BAO-smearing,
-cosmic-voids, void-stacking, SPARC-rotation-curves, falsifiable-gravity-model,
-pre-registered-predictions, DESI-void-test, ACP-CP-violation
-
----
-
-# GoP-Probabilistic-Curvature
+# GoP-Decoherence-Driven-Curvature
 
 This repository provides the reference implementation of the Gravity of Probability (GoP)
 probabilistic curvature term `T_prob(mu,nu)`.
@@ -23,6 +13,45 @@ Includes:
 - DESI / Euclid test scripts
 
 This is the official codebase used for GoP predictions in cosmology and large-scale structure.
+
+
+---
+
+```
+GoP-DESI-VACs-Pipeline-And-Testbed/
+│
+├── paper/
+│   ├── Excess_Radio_Dipole_GoP.tex
+│   ├── references.bib
+│   └── figures/
+│       ├── fig_radio_dipole_decomposition.tex
+│       ├── fig_redshift_tomography.tex
+│       └── fig_tracer_hierarchy.tex
+│
+├── data/
+│   ├── README_data.md
+│   ├── placeholder.txt
+│   └── mock/
+│       ├── mock_radio_dipoles.csv
+│       └── mock_void_catalog.csv
+│
+├── scripts/
+│   ├── compute_dipole_residuals.py
+│   ├── plot_tracer_hierarchy.py
+│   └── cross_correlate_radio_voids.py
+│
+├── results/
+│   ├── dipole_residuals_output.csv
+│   ├── tracer_hierarchy.png
+│   └── void_alignment_stats.csv
+│
+├── registry/
+│   └── prediction_registry_radio_dipole.md
+│
+├── .gitignore
+├── LICENSE
+└── README.md
+```
 
 ---
 
@@ -228,4 +257,16 @@ def gop_predict_pk(k_array, cosmo=None):
     return compute_pk_gop(k_array, **(cosmo or {}))
 ```
 This upgrades the script to the full GoP cosmology.
+
+---
+
+# Keywords
+gravity-of-probability, decoherence, probabilistic-curvature, alternative-gravity,
+S8-tension, DESI-DR2, warm-void-core, void-redshift-peak-0.55, S8-0.76-0.79,
+dipole-amplification, BAO-smoothing, DESI, DESI-DR1, Lyman-alpha, LyA-forest,
+large-scale-structure, LSS, Pk-tilt, matter-power-spectrum, BAO-smearing,
+cosmic-voids, void-stacking, SPARC-rotation-curves, falsifiable-gravity-model,
+pre-registered-predictions, DESI-void-test, ACP-CP-violation
+
+---
 
