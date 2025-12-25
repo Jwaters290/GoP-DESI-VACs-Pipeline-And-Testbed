@@ -22,6 +22,7 @@ from pathlib import Path
 
 # Canonical constants (single source of truth)
 from gop_curvature.gop_constants import KAPPA_A, E0, F_ENT, A_CP, C_LIGHT
+from gop_curvature.bell_curve_decoherence_kernel import gamma_bell_curve
 
 
 # -----------------------------
@@ -29,11 +30,10 @@ from gop_curvature.gop_constants import KAPPA_A, E0, F_ENT, A_CP, C_LIGHT
 # -----------------------------
 @dataclass(frozen=True)
 class GoPParams:
-
     kappaA: float = KAPPA_A      # effective amplitude (units depend on Γ(E) convention)
     E0_erg: float = E0           # erg (characteristic energy scale for Γ(E))
     f_ent: float = F_ENT         # entanglement fraction
-    A_CP: float = A_CP           # CP asymmetry
+    a_cp: float = A_CP           # CP asymmetry
 
 
 # -----------------------------
@@ -55,13 +55,14 @@ def rho_prob(r_kpc: np.ndarray, rho_b: np.ndarray, params: GoPParams) -> np.ndar
         physical scaling is not enforced here. This is intentional for the
         DESI-ready template workflow and can be upgraded once VAC unit
         conventions and stacking products are finalized.
+      - r_kpc is currently unused in this template (the proxy is local in rho_b).
     """
     # Local energy density proxy (shape only — units cancel in ratios)
     E_local = rho_b * (C_LIGHT ** 2)
 
-    # Bell-curve decoherence kernel Γ(E)
+    # Bell-curve decoherence kernel Γ(E) (canonical implementation)
     Gamma = gamma_bell_curve(E_local, kappaA=params.kappaA, E0_local=params.E0_erg)
-    return Gamma * params.f_ent * (1.0 + params.A_CP)
+    return Gamma * params.f_ent * (1.0 + params.a_cp)
 
 
 # -----------------------------
@@ -97,7 +98,7 @@ def main():
     print(f"  KAPPA_A = {params.kappaA:.3e}")
     print(f"  E0      = {params.E0_erg:.3e} erg")
     print(f"  F_ENT   = {params.f_ent:.3f}")
-    print(f"  A_CP    = {params.A_CP:.4f}")
+    print(f"  A_CP    = {params.a_cp:.4f}")
     print()
 
     rho_b = rho_baryon(r)
