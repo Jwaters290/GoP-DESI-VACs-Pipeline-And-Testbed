@@ -1,4 +1,4 @@
-# GoP–Decoherence–Driven Curvature
+# GoP-DESI-VACs-Pipeline-And-Testbed
 
 This repository provides the **reference implementation** of the Gravity of Probability (GoP)
 probabilistic curvature framework and its associated prediction pipelines.
@@ -118,6 +118,35 @@ This test demonstrates that the canonical kernel
 
 **naturally saturates**, producing a stable effective cosmological constant Λ_eff under
 cosmological conditions.
+
+# Why vacuum energy matching is a non-negotiable requirement
+
+In GoP, vacuum energy is not an auxiliary quantity. It is foundational.
+
+ - GoP asserts that information density and decoherence flow contribute to gravitational curvature.
+ - The vacuum is the maximal information reservoir in the theory
+ - Therefore, its effective gravitational weight must be reproduced correctly using the same parameters
+
+If GoP failed to reproduce the observed vacuum energy scale, the framework would collapse immediately — not later, immediately.
+
+There is no “patch” available.
+
+So the fact that it lands near 1:1 is not cosmetic; it is existence-level validation.
+
+Most approaches treat vacuum energy in one of three unsatisfactory ways:
+
+ - Cancel it by hand (Λ problem avoidance)
+ - Renormalize it away (formal but physically empty)
+ - Declare it anthropic (landscape reasoning)
+
+The GoP framework does none of these, it is doing something far stricter:
+
+ - The vacuum has weight because it carries unrealized quantum probability, and that weight must match observation under the same bookkeeping rules that govern galaxies and voids.
+
+That is a single-source requirement.
+
+Very few frameworks even attempt this, but here there's a match.
+
 
 ### Key Results
 
