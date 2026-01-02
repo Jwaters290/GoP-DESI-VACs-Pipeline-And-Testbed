@@ -111,6 +111,8 @@ A **companion repository** numerically verifies the stability of the effective v
 produced by the GoP decoherence kernel:
 
 - https://github.com/Jwaters290/GoP-vs-Lambda-Vacuum-Constant
+- https://github.com/Jwaters290/GoP-vs-Lambda-Vacuum-Constant/tree/v2.0.0
+   - extends the GoP vs. Λ Vacuum Constant repository beyond vacuum-scale demonstrations by introducing a reproducible, toy-level prediction and measurement scaffold for cosmic-void imprints in the CMB. This extension is designed for conceptual scaling, regime mapping, and preregistration, not precision cosmological inference.
 
 This test demonstrates that the canonical kernel
 
